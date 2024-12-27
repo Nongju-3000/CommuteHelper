@@ -21,4 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "CommuteHelper"
 include(":app")
- 
+include(":feature:bus")
+include(":feature:subway")
+include(":core:network")
+include(":core:room")
